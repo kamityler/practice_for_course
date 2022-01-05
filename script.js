@@ -2,7 +2,7 @@
 
 let numberOfFiles;
 
-//start();
+start();
 
 const personalMoviesDB = {
     count: +numberOfFiles,
@@ -12,8 +12,8 @@ const personalMoviesDB = {
     privat: true
 };
 
-//rememberMyFilms();
-//detectPersonalLevel();
+rememberMyFilms();
+detectPersonalLevel();
 writeYourGenres();
 showMyDB(personalMoviesDB.privat);
 
